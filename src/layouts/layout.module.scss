@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  max-width: 60%;
+  padding: 0 1rem;
+  min-height: 100vh;
+  height: 100vh;
+  margin: 0rem auto 0rem;
+}
+
+.childrenContainer {
+  max-width: 60%;
+  margin: 0rem auto;
+  min-height: 80%;
+}
+
+.footer {
+  // background-color: green;
+  position: relative;
+  bottom: 0;
+}
+  

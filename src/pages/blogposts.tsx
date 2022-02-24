@@ -1,8 +1,8 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Layout from '../components/layout';
+import Layout from '../layouts/layout';
 import { getSortedPostsData } from '../lib/blog-posts'
-import utilStyles from '../styles/utils.module.css'
+import utilStyles from '../styles/utils.module.scss'
 
 import Link from 'next/link'
 import Date from '../components/date'
