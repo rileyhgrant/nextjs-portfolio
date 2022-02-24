@@ -1,3 +1,5 @@
+@import '../styles/scss/variables.scss';
+
 .heading2Xl {
     font-size: 2.5rem;
     line-height: 1.2;
@@ -49,5 +51,17 @@
   
   .lightText {
     color: #666;
+  }
+
+  .icon {
+    font-size: $font-size-h3;
+    color: $light2;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      color: darken( $light2, 20% );
+      text-shadow: 0 0 3px $light2;
+    }
+  
   }
   

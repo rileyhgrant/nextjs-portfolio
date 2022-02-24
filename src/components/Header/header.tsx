@@ -6,8 +6,8 @@ import React from 'react';
 export const Header = ({ }) => {
     return (
             <div className={styles.header}>
-                <Link className={styles.home} href="/"><a>rgrant</a></Link>
-                <Link className={styles.about} href="/about"><a>about</a></Link>
+                <h4><Link className={styles.home} href="/">rgrant</Link></h4>
+                <h4><Link className={styles.about} href="/about"><a>about</a></Link></h4>
             </div>
     );
 };

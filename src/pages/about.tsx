@@ -19,7 +19,13 @@ const About: NextPage = () => {
             </Head>
 
             <h1>About Page</h1>
-            <p>There's really nothing here</p>
+            <p>{
+                    `< Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. >`
+                }
+            </p>
             
             {/* The back button is handled by layout, wow! */}
 

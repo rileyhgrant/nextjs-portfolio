@@ -6,6 +6,16 @@ import { Footer } from '../components/Footer/footer'
 import { Header } from '../components/Header/header'
 import utilStyles from '../styles/utils.module.scss'
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faLinkedin,
+  faLinkedinIn,
+  faGithub,
+  faGithubAlt,
+  faPagelines
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faFileLines, faMailBulk, faMailForward, faMailReply } from '@fortawesome/free-solid-svg-icons'
 
 // import Image from 'next/image'
 // import styles from '../styles/Home.module.css'
@@ -25,19 +35,55 @@ const Home: NextPage = () => {
 
 
       <section className={utilStyles.headingMd}>
-        <p>I'm a developer, thru hiker, and musician.</p>
+        <p>I'm a developer, a thru hiker, and a musician.</p>
       </section>
 
       <section>
-        <p>
-          <Link href="/about"><a>LINK</a></Link>
+        <span>
+
+         
+          <a href="https://github.com/rileyhgrant"
+            target="_blank">
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className={utilStyles.icon}
+            />
+          </a>
+
           {' -- '}
-          <Link href="/about"><a>LINK</a></Link>
+
+          <a href="https://github.com/rileyhgrant"
+            target="_blank">
+            <FontAwesomeIcon
+              icon={faGithub}
+              className={utilStyles.icon}
+            />
+          </a>
+
           {' -- '}
-          <Link href="/about"><a>LINK</a></Link>
+
+          <a href="https://github.com/rileyhgrant"
+            target="_blank">
+            <FontAwesomeIcon
+              icon={faEnvelope}
+              className={utilStyles.icon}
+            />
+          </a>
+
           {' -- '}
-          <Link href="/about"><a>LINK</a></Link>
-        </p>
+
+          <a href="https://github.com/rileyhgrant"
+            target="_blank">
+              <span>
+                <FontAwesomeIcon
+                  icon={faFileLines}
+                  className={utilStyles.icon}
+                  />
+                {' Resume'}
+              </span>
+          </a>
+
+        </span>
       </section>
 
       {/* 
