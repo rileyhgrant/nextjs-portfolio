@@ -1,0 +1,43 @@
+@import '../../styles/scss/variables.scss';
+
+.projects {
+    padding: 3rem 0 3rem;
+    justify-content: center;
+}
+
+.myWork {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0rem;
+
+    @include bp-tablet {
+        padding-bottom: 2rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+}
+
+.projectList {
+    list-style: none;
+    // TODO: kinda hacky
+    margin-bottom: -6rem;
+
+
+    @include bp-tablet {
+        padding-bottom: 2rem;
+    }
+}
+
+.allProjects {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+    a {
+        font-family: $header-font-family;
+        font-size: $font-size-h3;
+    }
+}

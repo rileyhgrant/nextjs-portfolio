@@ -1,14 +1,12 @@
+@import '../../styles/scss/variables.scss';
+
 .header {
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+
+    @include bp-tablet {
+        padding-top: 2rem;
+    }
 }
-
-// .home {
-//     text-align: left;
-// }
-
-// .home {
-//     text-align: right;
-// }

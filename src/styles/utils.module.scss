@@ -53,15 +53,13 @@
     color: #666;
   }
 
-  .icon {
-    font-size: $font-size-h3;
-    color: $light2;
-    transition: all 0.2s ease-in-out;
+  .separator {
+    width: 30%;
+    border: 1px solid $light1;
+    margin: 5rem auto 1rem;
 
-    &:hover {
-      color: darken( $light2, 20% );
-      text-shadow: 0 0 3px $light2;
+    @include bp-tablet {
+      margin-bottom: 5rem;
     }
-  
   }
   

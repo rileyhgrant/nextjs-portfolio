@@ -1,0 +1,71 @@
+@import '../../styles/scss/variables.scss';
+
+.aboutBlurb {
+
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+
+    @include bp-tablet {
+        padding-top: 4rem;
+
+        // pretty hacky fix
+        width: 130%;
+        margin-left: -15%;
+    }
+}
+
+.row {
+    @include bp-tablet {
+        display: flex;
+    }
+}
+
+.imageCol {
+
+    display: flex;
+    padding: 1rem 1rem;
+
+    @include bp-tablet {
+        flex: 35%;
+        padding:1rem 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+}
+
+.image {
+
+    flex: 50%;
+    padding: 2px;
+
+    @include bp-tablet {
+        flex: 30%;
+    }
+}
+
+.links {
+    flex: 50%;
+    padding-left: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    
+    @include bp-tablet {
+        flex: 70%;
+        padding-top: 2rem;
+    }
+}
+
+.textCol {
+    flex: 65%;
+    padding: 0 1rem;
+}
+
+// .title {
+//     h1 {
+//         color: $light2;
+//     }
+// }

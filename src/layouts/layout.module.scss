@@ -1,21 +1,35 @@
+@import '../styles/scss/variables.scss';
+
 .container {
   position: relative;
-  max-width: 60%;
+    max-width: 100%;
   padding: 0 1rem;
   min-height: 100vh;
   height: 100vh;
   margin: 0rem auto 0rem;
+
+  @include bp-tablet {
+    max-width: 70%;
+  }
 }
 
 .childrenContainer {
-  max-width: 60%;
+  max-width: 100%;
   margin: 0rem auto;
   min-height: 80%;
+
+  @include bp-tablet {
+    max-width: 60%;
+  }
 }
 
 .footer {
-  // background-color: green;
   position: relative;
   bottom: 0;
+  padding-top: 2rem;
+
+  @include bp-tablet {
+    padding-top: 0rem;
+  }
 }
   

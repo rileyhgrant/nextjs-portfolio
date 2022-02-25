@@ -137,7 +137,8 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: underline;
+    // text-decoration: underline;
+    color: darken( $light2, 20% );
   }
 
   &:active {

@@ -1,0 +1,35 @@
+[
+    {
+        "title": "Portfolio",
+        "lang": "Typescript",
+        "page": "/about",
+        "image": "/images/proj-portfolio.png",
+        "github": "https://www.github.com",
+        "youtube": "",
+        "demo": "",
+        "blurb": "A personal portfolio, in fact, this very site! Built with NextJS, TypeScript, and NodeJS, amongst other tech."
+    },
+
+    {
+        "title": "AllEars",
+        "lang": "Java, Android",
+        "page": "/about",
+        "image": "/images/proj-allears.png",
+        "github": "https://github.com/nikhilnair23/AllEars",
+        "youtube": "https://youtu.be/pO6KhNzjgLc",
+        "demo": "",
+        "blurb": "An Ear Training application developed for Android, for my Mobile App Dev course project."
+    },
+
+    {
+        "title": "Sudoku Solver",
+        "lang": "Python",
+        "page": "/about",
+        "image": "/images/proj-sudoku.png",
+        "github": "https://github.com/rileyhgrant/Sudoku",
+        "youtube": "https://youtu.be/ppCdnAQjHPY",
+        "demo": "",
+        "blurb": "A python application that generates and solves Sudoku boards using a recursive backtracking algorithm."
+    }
+
+]
