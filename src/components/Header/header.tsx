@@ -6,8 +6,8 @@ import React, { FunctionComponent } from 'react';
 export const Header: FunctionComponent = ({ }) => {
     return (
             <div className={styles.header}>
-                <h4><Link className={styles.home} href="/">r.h.grant</Link></h4>
-                <h4><Link className={styles.about} href="/about"><a>about</a></Link></h4>
+                <h4 className={styles.home}><Link  href="/">r.h.grant</Link></h4>
+                <h4 className={styles.about}><Link href="/about"><a>about</a></Link></h4>
             </div>
     );
 };

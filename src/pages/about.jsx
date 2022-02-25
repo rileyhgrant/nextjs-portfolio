@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+// import type { NextPage } from 'next'
 import Head from 'next/head'
 import { Layout } from '../layouts/layout'
 
@@ -20,7 +20,8 @@ export async function getStaticProps() {
 }
 
 
-const About: NextPage = ({ abtData }) => {
+
+const About = ({ abtData }) => {
     return (
         <Layout>
 

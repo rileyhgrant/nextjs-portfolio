@@ -8,10 +8,10 @@ export const WelcomeBlurb = ({ }) => {
     return (
         <div className={styles.welcomeBlurb}>
             <header className={styles.hiThere}>
-                <h1>Hi there, I'm Riley</h1>
+                <h1>{`Hi there, I'm Riley`}</h1>
             </header>
             <section className={styles.briefBlurb}>
-                I'm a developer, a thru hiker, and a musician.
+                {`I'm a developer, a thru hiker, and a musician.`}
             </section>
             <section className={styles.iconRow}>
                 <IconRow/>

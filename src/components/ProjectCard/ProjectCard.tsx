@@ -1,8 +1,8 @@
 import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+// import Link from 'next/link';
+// import Image from 'next/image';
 // import profile from '../../public/images/profile.jpg';
-import profile from '/public/images/profile.jpg';
+// import profile from '/public/images/profile.jpg';
 import styles from './projectCard.module.scss';
 
 // for font awesome icons
@@ -11,11 +11,20 @@ import { faExternalLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 
-// TODO: temporary!
-import sampleJson from './sample_proj.json';
+export interface Project {
+    data: {
+        title: string,
+        lang: string,
+        page: string,
+        image: string,
+        github: string,
+        youtube: string,
+        demo: string,
+        blurb: string,
+    }
+}
 
-
-export const ProjectCard = ({ data }) => {
+export const ProjectCard = ( props: Project ) => {
 
     return (
         <div className={styles.projectCard}>
@@ -26,12 +35,16 @@ export const ProjectCard = ({ data }) => {
                 {/* Column for image */}
                 <div className={styles.imageCol}>
                     <div className={styles.image}>
-                        <Image
-                            src={data.image}
+                        {/* <Image
+                            src={props.data.image}
                             alt="it me!"
                             width={300}
                             height={300}
-                        />
+                        /> */}
+                        <img 
+                            src={props.data.image} 
+                            alt={props.data.title}>
+                        </img>
                     </div>
                 </div>
                 
@@ -40,27 +53,27 @@ export const ProjectCard = ({ data }) => {
                 <div className={styles.textCol}>
 
                     <header className={styles.title}>
-                        {data.title}
+                        {props.data.title}
                         {/* <Link href={data.page}>{data.title}</Link> */}
                     </header>
 
                     <span className={styles.iconRow}>
 
                         {/* Code */}
-                        <a href={data.github} target="_blank">
+                        <a href={props.data.github} target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon={faGithub} className={styles.icon} />
                         </a>
 
                         {/* Live Demo */}
-                        { data.demo && 
-                            <a href={data.demo} target="_blank">
+                        { props.data.demo && 
+                            <a href={props.data.demo} target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faExternalLink} className={styles.icon} />
                             </a>
                         }
 
                         {/* Video */}
-                        { data.youtube && 
-                            <a href={data.youtube} target="_blank">
+                        { props.data.youtube && 
+                            <a href={props.data.youtube} target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faYoutube} className={styles.icon} />
                             </a>
                         }
@@ -68,7 +81,7 @@ export const ProjectCard = ({ data }) => {
                     </span>
 
                     <p className={styles.blurb}>
-                        {data.blurb}
+                        {props.data.blurb}
                     </p>
 
                 </div>

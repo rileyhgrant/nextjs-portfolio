@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layout.tsx", "src/components/date.js", "src/lib/about-helper.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layout.tsx", "src/components/date.js", "src/lib/about-helper.ts", "src/pages/about.jsx", "src/pages/blogposts/[id].jsx", "src/pages/blogposts.jsx"],
   "exclude": ["node_modules"]
 }

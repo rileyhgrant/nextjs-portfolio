@@ -15,12 +15,12 @@ export const IconRow = ({ }) => {
     <span className={styles.iconRow}>
 
       {/* LinkedIn */}
-      <a href="https://www.linkedin.com/in/rileyhgrant/" target="_blank">
+      <a href="https://www.linkedin.com/in/rileyhgrant/" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} />
       </a>
 
       {/* Github */}
-      <a href="https://github.com/rileyhgrant" target="_blank">
+      <a href="https://github.com/rileyhgrant" target="_blank" rel="noreferrer">
         <FontAwesomeIcon icon={faGithub} className={styles.icon} />
       </a>
 
@@ -33,7 +33,7 @@ export const IconRow = ({ }) => {
        */}
 
       {/* Resume */}
-      <a href="/Resume_RGrant.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/Resume_RGrant.pdf" target="_blank" rel="noreferrer">
         <span>
           {'Resume '}
           <FontAwesomeIcon icon={faDownload} className={styles.icon}/>

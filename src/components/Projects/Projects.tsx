@@ -1,4 +1,4 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 import React from 'react';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
 import styles from './projects.module.scss';
@@ -16,7 +16,7 @@ export const Projects = ({ }) => {
             <ul className={styles.projectList}>
                 { projAll.map( (proj) => {
                     return (
-                        <li><ProjectCard data={proj}/></li>
+                        <li key={proj.title}><ProjectCard data={proj}/></li>
                     )
                 })}
             </ul>
