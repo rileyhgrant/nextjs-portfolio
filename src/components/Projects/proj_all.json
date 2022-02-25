@@ -4,7 +4,7 @@
         "lang": "Typescript",
         "page": "/about",
         "image": "/images/proj-portfolio.png",
-        "github": "https://www.github.com",
+        "github": "https://github.com/rileyhgrant/nextjs-portfolio",
         "youtube": "",
         "demo": "",
         "blurb": "A personal portfolio, in fact, this very site! Built with NextJS, TypeScript, and NodeJS, amongst other tech."

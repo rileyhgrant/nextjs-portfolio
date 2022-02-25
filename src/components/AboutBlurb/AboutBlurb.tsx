@@ -1,7 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
 import styles from './aboutBlurb.module.scss';
-// import profile from '../../public/images/profile.jpg';
 import profile from '/public/images/profile.jpg';
 
 import Image from 'next/image';
@@ -46,7 +44,7 @@ export const AboutBlurb = ({ abtData }) => {
                             <a href="/Resume_RGrant.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
                         </span>
                     </div>
-                    
+
                 </div>
 
                 {/* Column for image */}
