@@ -1,4 +1,4 @@
-
+[![Website](https://img.shields.io/website?label=rileyhgrant.com&style=for-the-badge&url=http%3A%2F%2Frileyhgrant.com)](https://rileyhgrant.com)
 
 ## Portfolio Website 2022
 
