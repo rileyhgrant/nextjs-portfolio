@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 
       {/* Information for head of page */}
       <Head>
-        <title>rgrant</title>
+        <title>r.h.grant</title>
       </Head>
 
       {/* Content of page */}

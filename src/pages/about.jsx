@@ -27,7 +27,7 @@ const About = ({ abtData }) => {
 
             {/* header - meta info  */}
             <Head>
-                <title>about | rgrant</title>
+                <title>about | r.h.grant</title>
                 <meta name="description" content="Portfolio site for Riley" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>

@@ -9,7 +9,7 @@
         "demo": "https://cooks-books-app.herokuapp.com/",
         "blurb": "My groups final project for Web Dev. A full stack Web App where Users can Create, Like, Review, and Search For recipes."
     },
-    
+
     {
         "title": "Portfolio",
         "lang": "Typescript",
@@ -30,17 +30,5 @@
         "youtube": "https://youtu.be/pO6KhNzjgLc",
         "demo": "",
         "blurb": "An Ear Training application developed for Android, for my Mobile App Dev course project."
-    },
-
-    {
-        "title": "Sudoku Solver",
-        "lang": "Python",
-        "page": "/about",
-        "image": "/images/proj-sudoku.png",
-        "github": "https://github.com/rileyhgrant/Sudoku",
-        "youtube": "https://youtu.be/ppCdnAQjHPY",
-        "demo": "",
-        "blurb": "A python application that generates and solves Sudoku boards using a recursive backtracking algorithm."
     }
-
 ]
