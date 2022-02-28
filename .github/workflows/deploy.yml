@@ -18,10 +18,11 @@ jobs:
         host:     ${{ secrets.SSH_HOST }}
         key:      ${{ secrets.SSH_KEY }}
         username: ${{ secrets.SSH_USERNAME }}
-        password: ${{ secrets.SSH_USERNAME_PASSWORD }}
+        # password: ${{ secrets.SSH_USERNAME_PASSWORD }}
+        mypw: ${{ secrets.SSH_USERNAME_PASSWORD }}
       
         script: |
-          echo $password | sudo -S rm -r nextjs-portfolio
+          echo $mypw | sudo -S rm -r nextjs-portfolio
           git clone git@github.com:rileyhgrant/nextjs-portfolio.git nextjs-portfolio
           cd nextjs-portfolio
           npm install
