@@ -29,8 +29,10 @@ jobs:
         # npm run build
         # pm2 restart nextjs-portfolio
         # echo "Deployment successful."
-      
+        
         script: |
+          sudo rm -r nextjs-portfolio
+          git clone git@github.com:rileyhgrant/nextjs-portfolio.git nextjs-portfolio
           cd nextjs-portfolio
           npm install
           npm run build
