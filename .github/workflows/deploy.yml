@@ -22,7 +22,7 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
       
         script: |
-          echo "$mypw" | sudo -S rm -r nextjs-portfolio
+          echo $mypw | sudo -S rm -r nextjs-portfolio
           git clone git@github.com:rileyhgrant/nextjs-portfolio.git nextjs-portfolio
           cd nextjs-portfolio
           npm install
