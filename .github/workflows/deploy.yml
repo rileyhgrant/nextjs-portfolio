@@ -19,14 +19,21 @@ jobs:
         key:      ${{ secrets.SSH_KEY }}
         username: ${{ secrets.SSH_USERNAME }}
         # password: ${{ secrets.SSH_USERNAME_PASSWORD }}
-      env:
-        mypw: ${{ secrets.SSH_USERNAME_PASSWORD }}
+      #env:
+        # mypw: ${{ secrets.SSH_USERNAME_PASSWORD }}
+        
+        # echo "$mypw" | sudo -S rm -r nextjs-portfolio
+        # git clone git@github.com:rileyhgrant/nextjs-portfolio.git nextjs-portfolio
+        # cd nextjs-portfolio
+        # npm install
+        # npm run build
+        # pm2 restart nextjs-portfolio
+        # echo "Deployment successful."
       
         script: |
-          echo "$mypw" | sudo -S rm -r nextjs-portfolio
-          git clone git@github.com:rileyhgrant/nextjs-portfolio.git nextjs-portfolio
           cd nextjs-portfolio
           npm install
           npm run build
           pm2 restart nextjs-portfolio
           echo "Deployment successful."
+          
