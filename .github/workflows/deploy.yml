@@ -14,19 +14,19 @@ jobs:
     steps:
     - name: Deploy NextJS App to DigitalOcean
       uses: appleboy/ssh-action@v0.1.4
+      env:
+        mypw: ${{ secrets.SSH_USER_PW }}
       with: 
         host:     ${{ secrets.SSH_HOST }}
         key:      ${{ secrets.SSH_KEY }}
         username: ${{ secrets.SSH_USERNAME }}
-        # password: ${{ secrets.SSH_USERNAME_PASSWORD }}
-      env:
-        mypw: ${{ secrets.SSH_USERNAME_PASSWORD }}
       
         script: |
-          echo "$mypw" | sudo -S rm -r nextjs-portfolio
+          echo "$mypw" | rm -r nextjs-portfolio
           git clone git@github.com:rileyhgrant/nextjs-portfolio.git nextjs-portfolio
           cd nextjs-portfolio
           npm install
           npm run build
           pm2 restart nextjs-portfolio
           echo "Deployment successful."
+          
