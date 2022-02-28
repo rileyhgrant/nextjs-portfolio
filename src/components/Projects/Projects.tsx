@@ -3,7 +3,8 @@ import React from 'react';
 import { ProjectCard } from '../ProjectCard/ProjectCard';
 import styles from './projects.module.scss';
 
-import projHighlights from './proj_highlights.json';
+// import projHighlights from './proj_highlights.json';
+import projects from './proj_all.json';
 
 export const Projects = ({ }) => {
     return (
@@ -14,7 +15,7 @@ export const Projects = ({ }) => {
             </header>
 
             <ul className={styles.projectList}>
-                { projHighlights.map( (proj) => {
+                { projects.map( (proj) => {
                     return (
                         <li key={proj.title}><ProjectCard data={proj}/></li>
                     )
