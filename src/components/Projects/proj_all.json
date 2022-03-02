@@ -7,7 +7,7 @@
         "github": "https://github.com/alecherryy/cooks-books-app",
         "youtube": "https://www.youtube.com/watch?v=5QVYqbY8_5c",
         "demo": "https://cooks-books-app.herokuapp.com/",
-        "blurb": "My groups final project for Web Dev. A full stack Web App where Users can Create, Like, Review, and Search For recipes."
+        "blurb": "My groups' final project for Web Dev. A full stack Web App where users can create, like, review, and search for recipes."
     },
     
     {
@@ -18,7 +18,7 @@
         "github": "https://github.com/rileyhgrant/nextjs-portfolio",
         "youtube": "",
         "demo": "",
-        "blurb": "A personal portfolio, in fact, this very site! Built with NextJS, TypeScript, and NodeJS, amongst other tech."
+        "blurb": "A personal portfolio, in fact, this very site! Built with NextJS, TypeScript, and React, amongst other tech."
     },
 
     {
@@ -29,7 +29,7 @@
         "github": "https://github.com/nikhilnair23/AllEars",
         "youtube": "https://youtu.be/pO6KhNzjgLc",
         "demo": "",
-        "blurb": "An Ear Training application developed for Android, for my Mobile App Dev course project."
+        "blurb": "An Ear Training application developed for Android, for my Mobile App Dev course final group project."
     },
 
     {
@@ -40,7 +40,7 @@
         "github": "https://github.com/rileyhgrant/Sudoku",
         "youtube": "https://youtu.be/ppCdnAQjHPY",
         "demo": "",
-        "blurb": "A python application that generates and solves Sudoku boards using a recursive backtracking algorithm."
+        "blurb": "A Python application that generates and solves Sudoku boards using a recursive backtracking algorithm."
     }
 
 ]
