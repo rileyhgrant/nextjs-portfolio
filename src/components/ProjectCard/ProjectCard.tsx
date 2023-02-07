@@ -1,9 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-// import Link from 'next/link';
-// import Image from 'next/image';
-// import profile from '../../public/images/profile.jpg';
-// import profile from '/public/images/profile.jpg';
 import styles from "./projectCard.module.scss";
 
 // for font awesome icons
@@ -32,25 +28,13 @@ export const ProjectCard = (props: Project) => {
         {/* Column for image */}
         <div className={styles.imageCol}>
           <div className={styles.image}>
-            {/* <Image
-                            src={props.data.image}
-                            alt="it me!"
-                            width={300}
-                            height={300}
-                        /> */}
-            <img
-              src={props.data.image}
-              alt={props.data.title}
-            ></img>
+            <img src={props.data.image} alt={props.data.title}></img>
           </div>
         </div>
 
         {/* Column for text */}
         <div className={styles.textCol}>
-          <header className={styles.title}>
-            {props.data.title}
-            {/* <Link href={data.page}>{data.title}</Link> */}
-          </header>
+          <header className={styles.title}>{props.data.title}</header>
 
           <span className={styles.iconRow}>
             {/* Code */}
