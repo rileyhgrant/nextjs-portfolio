@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 // import Link from 'next/link';
 // import Image from 'next/image';
@@ -9,6 +10,8 @@ import styles from "./projectCard.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
+import { prefix } from "../../utils/prefix";
 
 export interface Project {
   data: {
@@ -37,7 +40,10 @@ export const ProjectCard = (props: Project) => {
                             width={300}
                             height={300}
                         /> */}
-            <img src={props.data.image} alt={props.data.title}></img>
+            <img
+              src={`${prefix}${props.data.image}`}
+              alt={props.data.title}
+            ></img>
           </div>
         </div>
 
