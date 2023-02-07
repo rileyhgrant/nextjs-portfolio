@@ -4,7 +4,6 @@ import styles from "./aboutBlurb.module.scss";
 // import profile from '/public/images/profile.jpg';
 
 // import Image from 'next/image';
-import { prefix } from "../../utils/prefix";
 
 export interface AbtData {
   abtData: {
@@ -28,10 +27,7 @@ export const AboutBlurb = (props: AbtData) => {
                             width={400}
                             height={400}
                         /> */}
-            <img
-              src={`${prefix}/images/profile.jpg`}
-              alt={`Riley H. Grant`}
-            ></img>
+            <img src="/images/profile.jpg" alt={`Riley H. Grant`}></img>
           </div>
 
           <div className={styles.links}>
@@ -69,7 +65,7 @@ export const AboutBlurb = (props: AbtData) => {
             <span>
               {`see my `}
               <a
-                href={`${prefix}/Resume_RGrant.pdf`}
+                href="/Resume_RGrant.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
