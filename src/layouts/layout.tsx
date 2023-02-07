@@ -1,28 +1,22 @@
-import styles from './layout.module.scss'
+import styles from "./layout.module.scss";
 
-import { Header } from '../components/Header/header';
-import { Footer } from '../components/Footer/footer';
+import { Header } from "../components/Header/header";
+import { Footer } from "../components/Footer/footer";
 
 export interface MyProps {
-  children: any,
+  children: any;
 }
 
-export const Layout = ( props: MyProps ) => {
-    return (
-        <div className={styles.container}>
+export const Layout = (props: MyProps) => {
+  return (
+    <div className={styles.container}>
+      <Header />
 
-          <Header/>
+      <div className={styles.childrenContainer}>{props.children}</div>
 
-          <div className={styles.childrenContainer}>
-            { props.children }
-          </div>
-        
-          <div className={styles.footer}>
-            <Footer />
-          </div>
-          
+      <div className={styles.footer}>
+        <Footer />
+      </div>
     </div>
- 
-    )
-}
-  
+  );
+};

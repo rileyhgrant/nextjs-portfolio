@@ -1,23 +1,22 @@
-@import '../../styles/scss/variables.scss';
+@import "../../styles/scss/variables.scss";
 
 .iconRow {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .icon {
-    font-size: $font-size-h4;
-    color: $light2;
-    transition: all 0.2s ease-in-out;
+  font-size: $font-size-h4;
+  color: $light2;
+  transition: all 0.2s ease-in-out;
 
-    &:hover {
-      color: darken( $light2, 20% );
-      text-shadow: 0 0 3px $light2;
-    }
+  &:hover {
+    color: darken($light2, 20%);
+    text-shadow: 0 0 3px $light2;
+  }
 
-    @include bp-tablet {
-        font-size: $font-size-h3;
-        // max-width: 60%;
-    }
-  
+  @include bp-tablet {
+    font-size: $font-size-h3;
+    // max-width: 60%;
+  }
 }

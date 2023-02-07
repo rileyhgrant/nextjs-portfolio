@@ -1,9 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styles from "./aboutBlurb.module.scss";
-// import profile from '/public/images/profile.jpg';
-
-// import Image from 'next/image';
 
 export interface AbtData {
   abtData: {
@@ -20,13 +17,6 @@ export const AboutBlurb = (props: AbtData) => {
         {/* Column for image */}
         <div className={styles.imageCol}>
           <div className={styles.image}>
-            {/* <Image 
-                            // src="/src/public/images/profile.jpg"
-                            src={profile}
-                            alt="it me!"
-                            width={400}
-                            height={400}
-                        /> */}
             <img src="/images/profile.jpg" alt={`Riley H. Grant`}></img>
           </div>
 
