@@ -9,8 +9,6 @@ import {
   faFileLines,
 } from "@fortawesome/free-solid-svg-icons";
 
-import { prefix } from "../../utils/prefix";
-
 // to style the icons
 import utilStyles from "../../styles/utils.module.scss";
 
@@ -41,7 +39,7 @@ export const IconRow = ({}) => {
        */}
 
       {/* Resume */}
-      <a href={`${prefix}/Resume_RGrant.pdf`} target="_blank" rel="noreferrer">
+      <a href="/Resume_RGrant.pdf" target="_blank" rel="noreferrer">
         <span>
           {"Resume "}
           {/* @ts-expect-error */}

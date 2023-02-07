@@ -11,8 +11,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
-import { prefix } from "../../utils/prefix";
-
 export interface Project {
   data: {
     title: string;
@@ -41,7 +39,7 @@ export const ProjectCard = (props: Project) => {
                             height={300}
                         /> */}
             <img
-              src={`${prefix}${props.data.image}`}
+              src={props.data.image}
               alt={props.data.title}
             ></img>
           </div>
