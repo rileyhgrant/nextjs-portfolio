@@ -4,6 +4,7 @@ import { Layout } from '../layouts/layout'
 
 import { AboutBlurb } from '../components/AboutBlurb/AboutBlurb';
 import { getAboutData } from '../lib/about-helper';
+import { prefix } from '../utils/prefix';
 
 import utilStyles from '../styles/utils.module.scss';
 
@@ -29,7 +30,7 @@ const About = ({ abtData }) => {
             <Head>
                 <title>about | r.h.grant</title>
                 <meta name="description" content="Portfolio site for Riley" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href={`${prefix}/favicon.ico`} />
             </Head>
 
             <AboutBlurb abtData={abtData} />
