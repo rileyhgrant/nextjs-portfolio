@@ -2,7 +2,7 @@
 title: 'More About Me'
 ---
 
-I'm an Associate Software Engineer at the [Broad Institute](https://www.broadinstitute.org/) of MIT and Harvard. At the Broad, I'm a part of the Translational Genomics Group, and am working on the gnomAD browser which seeks to aggregate and share both the data and tools needed to analyze hundreds of thousands of sequenced human genomes to the wider scientific community. It is one of the most widely used reference population databases on the internet.
+I'm an Associate Software Engineer at the [Broad Institute](https://www.broadinstitute.org/) of MIT and Harvard. At the Broad, I'm a part of the Translational Genomics Group, and am working on the gnomAD browser which seeks to aggregate and share both the data and tools needed to analyze thousands of sequenced human exomes and genomes to the wider scientific community. It is one of the most widely used reference population databases on the internet.
 
 I'm a Double Husky, having received my Master of Science in Computer Science in the May of 2022, and my Bachelor of Science in Civil Engineering in May of 2020, from [Northeastern University](https://www.northeastern.edu/) in Boston, Massachusetts.
 
