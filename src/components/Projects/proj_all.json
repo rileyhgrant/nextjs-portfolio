@@ -1,5 +1,16 @@
 [
     {
+        "title": "gnomAD Browser",
+        "lang": "React",
+        "page": "/about",
+        "image": "/images/proj-gnomad.png",
+        "github": "https://github.com/broadinstitute/gnomad-browser",
+        "youtube": "",
+        "demo": "https://gnomad.broadinstitute.org/",
+        "blurb": "One of the most widely used open source, open access genomic reference population database. >200,000 pageviews per month."
+    },
+
+    {
         "title": "CooksBooks",
         "lang": "React",
         "page": "/about",
