@@ -1,5 +1,16 @@
 [
     {
+        "title": "gnomAD Browser",
+        "lang": "React",
+        "page": "/about",
+        "image": "/images/proj-gnomad.png",
+        "github": "https://github.com/broadinstitute/gnomad-browser",
+        "youtube": "",
+        "demo": "https://gnomad.broadinstitute.org/",
+        "blurb": "One of the most widely used open source, open access genomic reference population database. >200,000 pageviews per month."
+    },
+
+    {
         "title": "CooksBooks",
         "lang": "React",
         "page": "/about",
@@ -8,17 +19,6 @@
         "youtube": "https://www.youtube.com/watch?v=5QVYqbY8_5c",
         "demo": "https://cooks-books-app.herokuapp.com/",
         "blurb": "My groups final project for Web Dev. A full stack Web App where Users can Create, Like, Review, and Search For recipes."
-    },
-
-    {
-        "title": "Portfolio",
-        "lang": "Typescript",
-        "page": "/about",
-        "image": "/images/proj-portfolio.png",
-        "github": "https://github.com/rileyhgrant/nextjs-portfolio",
-        "youtube": "",
-        "demo": "",
-        "blurb": "A personal portfolio, in fact, this very site! Built with NextJS, TypeScript, and NodeJS, amongst other tech."
     },
 
     {
