@@ -39,7 +39,6 @@ export const ProjectCard = (props: Project) => {
           <span className={styles.iconRow}>
             {/* Code */}
             <a href={props.data.github} target="_blank" rel="noreferrer">
-              {/* @ts-expect-error */}
               <FontAwesomeIcon icon={faGithub} className={styles.icon} />
             </a>
 
@@ -47,7 +46,6 @@ export const ProjectCard = (props: Project) => {
             {props.data.demo && (
               <a href={props.data.demo} target="_blank" rel="noreferrer">
                 <FontAwesomeIcon
-                  // @ts-expect-error
                   icon={faExternalLink}
                   className={styles.icon}
                 />
@@ -57,7 +55,6 @@ export const ProjectCard = (props: Project) => {
             {/* Video */}
             {props.data.youtube && (
               <a href={props.data.youtube} target="_blank" rel="noreferrer">
-                {/* @ts-expect-error */}
                 <FontAwesomeIcon icon={faYoutube} className={styles.icon} />
               </a>
             )}
