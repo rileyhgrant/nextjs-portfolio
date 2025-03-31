@@ -11,6 +11,17 @@
     },
 
     {
+        "title": "GeniE",
+        "lang": "React",
+        "page": "/about",
+        "image": "/images/proj-genie.png",
+        "github": "https://github.com/broadinstitute/aggregate-frequency-calculator",
+        "youtube": "",
+        "demo": "https://genie.broadinstitute.org/",
+        "blurb": "Empowers users to curate variant lists for rare genetic diseases."
+    },
+
+    {
         "title": "CooksBooks",
         "lang": "React",
         "page": "/about",
