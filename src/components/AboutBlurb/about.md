@@ -10,5 +10,5 @@ I thru hiked the 3,100 mile [Continental Divide Trail](https://en.wikipedia.org/
 
 Now that months long adventures are more difficult to fit into my schedule, I've turned towards running long distances. I ran the [Vermont 100](https://vermont100.com) in 2024, finishing in ~22.5 hours. I've also ran the Philmont 50 twice, the Heartland 50 once, numerous marathons, and ran Rim to Rim to Rim ([R2R2R](https://ultrarunning.com/features/destinations/grand-canyon-basics-rim-to-rim-to-rim/})) in the Grand Canyon in October of 2023 in about 13 hours.
 
-My band recently released our [first single](https://linktr.ee/FireontheMountain), and in addition to being a part of this group, I love to play Jazz. I'm currently really digging Barry Harris, Ryo Fukui, and The Ezra Collective.
+The band I'm in, 'House of Artifacts', recently released our debut album! Check us out on [bandcamp](https://houseofartifacts.bandcamp.com/album/house-of-artifacts?from=search&search_item_id=3434018657&search_item_type=b&search_match_part=%3F&search_page_id=4222142317&search_page_no=1&search_rank=1&search_sig=41cad948cb87f7cfe83820b3c6f9e33e), also available for streaming everywhere. In addition to playing with the band, I love to play Jazz. I'm currently really digging Barry Harris, Ryo Fukui, and The Ezra Collective.
 
